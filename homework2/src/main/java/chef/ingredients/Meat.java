@@ -1,6 +1,6 @@
 package chef.ingredients;
 
-public class Meat extends Ingredients {
+public abstract class Meat extends Ingredients {
 
     public boolean isWhiteMeat;
 

@@ -1,12 +1,14 @@
 package chef;
 
-public abstract class CaloriesCalculator implements Energy {
+/**
+ * This interface is used to calculate energy value for any provided ingredient in kkal
+ */
 
+public interface CaloriesCalculator {
 
-    @Override
-    public double getCalories(double ingredientAmount, double energyValue100g) {
+    static double getCalories(double ingredientAmount, double energyValue100g) {
         double calories;
-        calories = ingredientAmount * energyValue100g/100;
+        calories = ingredientAmount * energyValue100g / 100;
         return calories;
     }
 }

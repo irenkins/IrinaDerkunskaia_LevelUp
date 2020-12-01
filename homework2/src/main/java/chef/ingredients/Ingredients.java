@@ -1,6 +1,6 @@
 package chef.ingredients;
 
-public class Ingredients {
+public abstract class Ingredients {
 
     public double energyValue100g;
     public boolean isStoredInFrige;

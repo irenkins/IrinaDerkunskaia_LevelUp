@@ -1,9 +1,9 @@
 package chef.ingredients;
 
-public class Cucumber extends Veggies{
+public class Kale extends Veggies{
 
-    public Cucumber() {
-        super.energyValue100g = 15;
+    public Kale() {
+        super.energyValue100g = 14;
         super.isStoredInFrige = true;
         super.color = "green";
         super.isRootVeggie = false;
